@@ -1,3 +1,5 @@
+package functionalProgramming
+
 /**
  *  중위 함수 (infix function)
  *      - infix 로 선언할 시 중위 함수
@@ -8,7 +10,7 @@
 
 fun main() {
     // 일반 표현법
-//    val multi = 3.multiply(10)
+//    val multi = 3.functionalProgramming.multiply(10)
 
     // 중위 표현법
     val mutlti = 3 multiply 10

@@ -1,3 +1,5 @@
+package functionalProgramming
+
 /**
  *  순수 함수 (Pure Function)
  *      - 부작용 (side - effect) 이 없는 함수
@@ -13,7 +15,7 @@
  *          - 함수를 변수나 데이터 구조에 저장
  *          - 유연성 증가
  *
- *  람다식 (Lambda Expression)
+ *  람다식 (functionalProgramming.getLambda Expression)
  *      - 익명 함수의 하나의 형태로 이름 없이 사용 및 실행이 가능
  *      - 람다식은 고차 함수에서 인자로 넘기거나 결과값으로 반환 등을 할 수 있다.
  *

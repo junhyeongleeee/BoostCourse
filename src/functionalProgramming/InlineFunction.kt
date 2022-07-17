@@ -1,3 +1,5 @@
+package functionalProgramming
+
 /**
  *  인라인 함수 (inline function)
  *      - 함수가 호출되는 곳에 내용을 모두 복사해 넣어 함수의 분기 없이 처리 되기 때문에

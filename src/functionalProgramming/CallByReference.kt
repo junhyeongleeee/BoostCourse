@@ -1,3 +1,5 @@
+package functionalProgramming
+
 /**
  *  참조에 의한 호출
  *      - 다른 함수에 의한 호출

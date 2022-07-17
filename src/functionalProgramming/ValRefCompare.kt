@@ -1,3 +1,5 @@
+package functionalProgramming
+
 /**
  *  기본형과 참조형 변수에 대한 비교
  *      - 코틀린은 기본적으로 참조형으로 변수를 표현한다.

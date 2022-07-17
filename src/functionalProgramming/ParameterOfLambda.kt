@@ -1,18 +1,20 @@
+package functionalProgramming
+
 fun main() {
 
-//    noParam ({ "Hello World" })
+//    functionalProgramming.noParam ({ "Hello World" })
     noParam { "Hello World" }
 
-//    oneParam { a -> "Hello World!! $a" }
+//    functionalProgramming.oneParam { a -> "Hello World!! $a" }
     oneParam { "Hello World!! $it" }        // 람다식의 매개변수가 하나일 경우만 사용 가능 (it)
 
-//    moreParam { a, b -> "Hello World!! $a $b" }
+//    functionalProgramming.moreParam { a, b -> "Hello World!! $a $b" }
     moreParam { _, b -> "Hello World!! $b" }    // 사용하지 않을 경우 _ 로 생략 가능
 
-//    withArgs("Args1", "Args2", { a, b -> "Hello World! $a $b" })
+//    functionalProgramming.withArgs("Args1", "Args2", { a, b -> "Hello World! $a $b" })
     withArgs("Args1", "Args2") { a, b -> "Hello World! $a $b" }
 
-//    twoLambdaParam({ a, b -> "First $a $b" }, { "Second $it" })
+//    functionalProgramming.twoLambdaParam({ a, b -> "First $a $b" }, { "Second $it" })
     twoLambdaParam({ a, b -> "First $a $b" }) { "Second $it" }
 }
 

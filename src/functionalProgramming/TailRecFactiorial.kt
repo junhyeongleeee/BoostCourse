@@ -1,3 +1,5 @@
+package functionalProgramming
+
 /**
  *  꼬리 재귀 (tail recursive function)
  *      - 스택을 사용하지 않음 -> 스택 오버플로우 방지

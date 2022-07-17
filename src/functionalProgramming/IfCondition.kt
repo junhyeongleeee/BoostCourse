@@ -1,3 +1,5 @@
+package functionalProgramming
+
 /**
  *  조건식의 표현식
  *      - 블록과 함께 사용하는 경우

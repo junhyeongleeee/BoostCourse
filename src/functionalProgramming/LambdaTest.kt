@@ -1,3 +1,5 @@
+package functionalProgramming
+
 /**
  *  람다식의 구성
  *      - 변수에 지정된 람다식
