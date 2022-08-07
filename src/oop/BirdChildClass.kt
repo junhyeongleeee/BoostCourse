@@ -29,7 +29,11 @@ package oop
  */
 
 // 여기서 open 은 상속 기능
-open class Bird(var name: String, var wind: Int, var beak: String) {
+open class Bird(
+    var name: String,
+    var wind: Int,
+    var beak: String
+) {
     /*fun fly() {
         println("Fly")
     }*/
@@ -62,7 +66,8 @@ class Parrot : Bird {
         name: String,
         wing: Int,
         beak: String,
-        language: String) : super(name, wing, beak) {
+        language: String
+    ) : super(name, wing, beak) {
         this.language = language
     }
 

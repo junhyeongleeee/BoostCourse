@@ -1,6 +1,6 @@
 package oop
 
-class Person(firstName: String,
+/*class Person(firstName: String,
              out: Unit = println("[Primary Constructor] Parameter")) {
     val fName = println("[Property] Person fName: $firstName")
     init {
@@ -12,7 +12,7 @@ class Person(firstName: String,
                 out: Unit = println("[Secondary Constructor] Parameter")): this(firstName) {
                     println("[Secondary Constructor] Body: $firstName, $age")
                 }
-}
+}*/
 
 fun main() {
     val p1 = Person("Kildong", 30)

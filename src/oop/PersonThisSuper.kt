@@ -1,6 +1,6 @@
 package oop
 
-/*open class Person {
+open class Person {
     constructor(firstName: String) {
         println("[Person] firstName: $firstName")
     }
@@ -8,9 +8,8 @@ package oop
     constructor(firstName: String, age: Int) { // (3)
         println("[Person] firstName: $firstName, $age")
     }
-}*/
+}
 
-/*
 class Developer : Person {
     constructor(firstName: String) : this(firstName, 10) { // (1)
         println("[Developer] $firstName")
@@ -20,8 +19,7 @@ class Developer : Person {
         println("[Developer]  $firstName, $age")
     }
 }
-*/
 
 fun main() {
-//    val sean = Developer("Sean")
+    val sean = Developer("Sean")
 }
