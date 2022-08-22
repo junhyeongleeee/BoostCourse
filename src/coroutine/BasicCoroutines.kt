@@ -1,7 +1,6 @@
-package coroutines
+package coroutine
 
 import kotlinx.coroutines.*
-import kotlin.system.measureTimeMillis
 
 
 /**
@@ -21,7 +20,6 @@ import kotlin.system.measureTimeMillis
  *          - LAZY: 코루틴을 느리게 시작 (처음에는 중단 상태이며 START() AWAIT() 등으로 시작)
  *          - ATOMIC: (시작을 보장) 원자적으로 즉시 시작(DEFAULT 와 비슷하나 코루틴을 실행전에는 취소)
  *          - UN DISPATCHED: 현재 스레드에서 즉시 시작 (첫 지연함수까지, 이후 재개시 다시 시작됨)
- *
  *
  *
  *  runBlocking
