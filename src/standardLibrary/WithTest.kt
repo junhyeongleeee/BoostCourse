@@ -19,6 +19,7 @@ fun main() {
         skills = "Kotlin"
         email = "kildong@example.com"
     }
+
     println(user)
     println("result: $result")
 }
